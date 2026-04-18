@@ -22,9 +22,9 @@ The model is trained on the [IoT-based Smart Parking System Dataset](https://www
 - **Environment:** Jupyter Notebook / Python 3
 
 ## 📁 Repository Structure
-- `Smart_Parking_Model.py`: The core Python script for training and evaluation.
-- `updated_parking_data.csv`: The dataset used for the project.
-- `Documentation/`: Includes the full technical presentation (PDF) and the Project Logbook.
+- `Code/`: Contains `Smart_Parking_Model.py` (The core logic).
+- `Data/`: Contains `updated_parking_data.csv` (The dataset).
+- `Documentation/`: Includes the technical presentation (PDF) and the Project Logbook (Word).
 
 ## 👥 The Team
 This project was a collaborative effort by Computer Science students at **King Faisal University**:
