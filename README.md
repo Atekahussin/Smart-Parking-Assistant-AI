@@ -36,3 +36,6 @@ This project was a collaborative effort by Computer Science students at **King F
 
 ---
 *Part of the Artificial Intelligence Course - KFU.*
+---
+*Connect with me on LinkedIn for more projects!*
+https://www.linkedin.com/in/ateka-hussain/
