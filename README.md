@@ -2,32 +2,29 @@
 
 ![AI](https://img.shields.io/badge/Focus-Artificial%20Intelligence-blue.svg)
 ![University](https://img.shields.io/badge/KFU-Project-green.svg)
-![Model](https://img.shields.io/badge/Model-Random%20Forest-orange.svg)
+![Accuracy](https://img.shields.io/badge/Accuracy-96%25-brightgreen.svg)
 
 ## 📌 Project Overview
 Finding a parking spot on campus is a daily struggle for students, leading to wasted time and increased traffic. This project introduces a **Smart Parking Assistant** that uses Machine Learning to predict parking availability in real-time, helping students plan their arrival and reducing campus congestion.
 
-## 💡 The Solution
-We developed a predictive model that analyzes:
-- **Slot IDs:** Specific parking locations.
-- **Temporal Data:** Day of the week and specific hours.
-- **Occupancy Patterns:** Historical usage data to identify peak hours.
+## 📊 Dataset & Sources
+The model is trained on the [IoT-based Smart Parking System Dataset](https://www.kaggle.com/datasets/suwesh/iot-based-smart-parking-system-dataset) from Kaggle, supplemented with custom attributes to reflect campus parking behavior.
 
-## 🚀 Key Features
-- **Predictive Analytics:** Uses **Random Forest Classifier** to determine if a slot is likely to be "Available" or "Occupied".
-- **Data-Driven:** Built on a custom dataset reflecting real campus parking behavior.
-- **Prototype Ready:** Includes a logic-based prototype that takes user input (Slot, Day, Time) and outputs the predicted status.
+## 🚀 Key Results
+- **Model Performance:** Achieved a high **96% Accuracy** using the Random Forest Classifier.
+- **Predictive Power:** Successfully predicts parking occupancy based on Slot ID, Day of the Week, and Hour of the Day.
+- **Data Engineering:** Handled categorical encoding and data cleaning to ensure model reliability.
 
 ## 🛠️ Tech Stack
-- **Programming Language:** Python
+- **Language:** Python
 - **Machine Learning:** Scikit-Learn (Random Forest)
 - **Data Handling:** Pandas, NumPy
-- **Documentation:** Project Logbook & Technical Presentation.
+- **Environment:** Jupyter Notebook / Python 3
 
 ## 📁 Repository Structure
-- `Code/`: Contains the logic for the predictive model.
-- `Data/`: The `updated_parking_data.csv` used for training and testing.
-- `Documentation/`: Full technical presentation (PDF) and the Project Logbook.
+- `Smart_Parking_Model.py`: The core Python script for training and evaluation.
+- `updated_parking_data.csv`: The dataset used for the project.
+- `Documentation/`: Includes the full technical presentation (PDF) and the Project Logbook.
 
 ## 👥 The Team
 This project was a collaborative effort by Computer Science students at **King Faisal University**:
